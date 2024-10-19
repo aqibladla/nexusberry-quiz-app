@@ -93,7 +93,10 @@ import Header from './Header';
 
     return(
       <>
-     <h1>pakistan zindabad</h1>
+     <h1>WELL COME TO MY ONLINE WEBSITE</h1>
+       <div className="sit">
+         <h1>pakistan</h1>
+       </div>
       <Header></Header>
       
       </>

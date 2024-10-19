@@ -1,0 +1,17 @@
+.sit{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+}
+.sit:hover{
+    background-color: black;
+    color: white;
+    transform: translate(100px);
+    
+}
