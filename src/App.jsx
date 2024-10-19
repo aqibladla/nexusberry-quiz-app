@@ -90,13 +90,22 @@ import Header from './Header';
 
    
   function App(){
-
+      let obj={height: "200px",width:"200px" ,backgroundColor: "blueviolet", color:" white", fontWeight: "bold",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
+      }
     return(
       <>
-     <h1>WELL COME TO MY ONLINE WEBSITE</h1>
+
+     <h1 style={{backgroundColor:'black',color:'white',fontSize:'22px'}}>WELL COME TO MY ONLINE WEBSITE</h1>
      <hr />
        <div className="sit">
-         <h1>pakistan</h1>
+         <h1 style={{height: "200px",width:"200px" ,backgroundColor: "blueviolet", color:" white", fontWeight: "bold",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
+      }}>pakistan</h1>
        </div>
       <Header></Header>
       
